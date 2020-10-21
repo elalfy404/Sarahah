@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+
+/* @import */
+
+h3{
+    font-family: 'Cairo', sans-serif;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 991px){
+    label{
+        font-size: 15px !important;
+    }
+}
+.form-horizontal{
+    font-family: serif;
+    font-weight: bolder;
+    /*margin-left: 50px*/
+}
+.col-form-label{
+    margin: auto;
+}
+.all{
+    margin: 0 0 0 358px;
+}
+button{
+    color: #0da39c !important;
+    background-color: transparent !important;
+    border-color: #10BBB3 !important;
+}
+button:hover{
+    background-color: #0da39c !important;
+    color: #f5f9fc !important;
+}
+.link-color{
+    color: #10BBB3;
+    font-size: 14px;
+}
+.link-color:hover{
+    text-decoration: none;
+    color: #10BBB3;
+}
+/*!** Footer *!**/
+
+footer{
+    /*position: absolute;*/
+    position:  inherit;
+    bottom: 0;
+    width: 100%;
+    /*text-align: center;*/
+    line-height: 30px;
+}
+footer.center-block {
+    background: rgba(0, 0, 0, .075);
+    color: #777;
+}
+.social {
+    font-size: 13px;
+}
+.spacer {
+    /*color: #10BBB3;*/
+    color:rgb(30, 57, 72)!important; ;
+}
+.spacer:hover{
+    color: #10BBB3 !important;
+}
+.row div span a{
+    /*color: #1b1e21;*/
+    color:rgb(30, 57, 72) ;
+    font-size: 12.5px;
+}
+.row div span a:hover{
+    text-decoration: none;
+    color: #10BBB3;
+}
+
+/*  @media  */
+
+@media (max-width: 1200px) {
+    .all{
+        margin: 0 0 0 305px;
+    }
+}
+@media (max-width: 992px) {
+    .all{
+        margin: 0 0 0 187px;
+    }
+}
+@media (max-width: 769px) {
+    .all{
+        margin: 0 0 0 226px
+    }
+}
+@media (max-width: 560px) {
+    .all{
+        margin: auto;
+    }
+    div h3 i {
+        font-size: 15px;
+
+    }
+    div h3{
+        font-size: 20px;
+
+    }
+}

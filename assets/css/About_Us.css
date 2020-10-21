@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:700');
+
+/* @import */
+.a-u-s {
+    margin: 70px 0 0 0;
+    padding-left: 47px;
+    color: #1E3948;
+
+}
+
+h3,h4 {
+    font-family: 'Cairo', sans-serif;
+}
+
+p {
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.a-u-a {
+    margin: 0 0 2px 4px;
+    padding-left: 47px;
+    color: #1E3948;
+
+}
+
+.h-4 {
+    font-size: 16px;
+    font-style: normal;
+    color: #1E3948;
+
+}
+
+.a-u-p {
+    font-size: 13px;
+    color: #1E3948;
+
+}
+
+.a-u-1 {
+    padding-left: 64px;
+    margin-top: 15px;
+    color: #1E3948;
+
+}
+
+.a-u-2 {
+    padding-left: 64px;
+    margin-top: 5px;
+    color: #1E3948;
+
+}
+
+.a-u-3 {
+    padding-left: 64px;
+    margin-top: 5px;
+    color: #1E3948;
+
+}
+
+.a-u-4 {
+    padding-left: 64px;
+    margin-top: 5px;
+    color: #1E3948;
+
+}
+
+.a-u-5 {
+    padding-left: 64px;
+    margin-top: 5px;
+    color: #1E3948;
+
+}
+
+hr {
+    /*width: 1200px;*/
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border-top: 1px solid #d4dbe0;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+h3 {
+    font-size: 26px;
+    color: #1E3948;
+
+}
+
+/*!** Footer *!**/
+
+footer {
+    position: absolute;
+    /*position:  inherit;*/
+    /*position: initial;*/
+    bottom: 0;
+    width: 100%;
+    /*text-align: center;*/
+    line-height: 30px;
+}
+
+@media (max-width: 880px) {
+    footer {
+        /*position: absolute;*/
+        /*position:  inherit;*/
+        position: initial;
+    }
+}
+
+footer.center-block {
+    background: rgba(0, 0, 0, .075);
+    color: #777;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social {
+    font-size: 13px;
+}
+
+.spacer {
+    /*color: #10BBB3;*/
+    color: rgb(30, 57, 72) !important;;
+
+}
+
+.spacer:hover {
+    color: #10BBB3 !important;
+    text-decoration: none !important;
+}
+
+.row div span a {
+    /*color: #1b1e21;*/
+    color: rgb(30, 57, 72);
+    font-size: 12.5px;
+}
+
+.row div span a:hover {
+    color: #10BBB3;
+}

@@ -1,0 +1,132 @@
+.se-md{
+   padding-top: 130px;
+}
+@media (min-width: 1200px) {
+    .container {
+        min-width: 1230px !important;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1180px;
+    }
+}
+    @media (max-width: 576px) {
+        .container {
+            max-width: 729px !important;
+        }
+    }
+.card-body{
+    padding: 10px !important;
+}
+
+.card{
+    height: auto;
+    margin: auto;
+}
+.pull-right {
+    float: right !important;
+}
+
+
+.panel-profile-img {
+    width: 100px;
+    height: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    border: 1px solid rgba(15, 186, 178, .1);
+}
+.panel-title {
+    margin-top: 0;
+    font-size: 16px;
+    text-align: center;
+}
+.textarea-container {
+    display: table;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #10BBB3;
+    padding: 2px;
+    width: 90%;
+    background-color: rgba(12, 200, 201, 0.02);
+}
+textarea {
+    width: 100%;
+    padding: 6px 12px !important;
+    background-color: #fff !important;
+    border: 1px solid #d4dbe0!important;
+    border-radius: 4px !important;
+    display: block !important;
+
+}
+.form-control{
+    border: none !important;
+    box-shadow: none !important;
+}
+.btn-primary-outline{
+    background-color: #10BBB3;
+    color: white;
+
+}
+.btn-primary-outline:hover{
+    color: #0da39c;
+    background-color: transparent;
+     border-color: #10BBB3 !important;
+    /*border: 1px solid #10BBB3 !important;*/
+}
+.btn {
+    font-size: 14px;
+    text-align: left;
+}
+
+
+/* Footer */
+
+footer {
+    /*position: inherit;*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer.center-block {
+    background: rgba(0, 0, 0, .075);
+    color: #777;
+}
+
+.social {
+    font-size: 13px;
+}
+
+.link-color {
+    color: #10BBB3;
+}
+
+.row div a {
+    /*color: #1b1e21;*/
+    color: rgb(30, 57, 72);
+    font-size: 12.5px;
+}
+
+.row div a:hover {
+    text-decoration: none;
+    color: #10BBB3;
+}
+
+.row div .a-s-l {
+    color: #10BBB3;
+}
+
+.row div .a-s-l:hover {
+    color: rgb(30, 57, 72);
+}
+
