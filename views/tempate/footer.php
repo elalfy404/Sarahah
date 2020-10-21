@@ -11,7 +11,7 @@
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-4">
 
                <span style=" font-size: 14px;">
-                    Sarahah 2018 ©
+                    Sarahah 2019 ©
                </span>
 
                 <span class="social">
